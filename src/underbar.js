@@ -18,22 +18,26 @@
   // 실제로 어떻게 사용되는지 각 테스트 케이스 항목에 잘 나와 있습니다.
   _.each = function (collection, iterator) {
     
+
   };
 
  // 테스트 함수를 통과하지 않는 모든 element를 담은 배열을 리턴하세요.
   _.reject = function (collection, test) {
     
+
   };
 
  // iterator를 각 element에 적용한 결과를 담은 새로운 array를 리턴하세요.
   _.map = function (collection, iterator) {
     
+
   }
 
   // 객체의 배열을 가져와서, 그 안에 있는 특정 속성의 값의 배열을 리턴하세요.
   // 예를 들어, people이라는 객체가 담긴 배열을 가져와서, 그들의 나이만 리턴할 수 있어야 합니다.
   _.pluck = function (collection, key) { 
-  
+    
+
   }
 
   // 각 항목에 대해 iterator(accumulator, item)를 반복적으로 호출하여, Reduces an array to a single value by repetitively calling
@@ -61,11 +65,13 @@
   // iterator가 없다면, element 그 자체가 truthy한지 체크하세요.
   _.some = function (collection, iterator) {
     
+    
   };
 
   // extend와 비슷하지만, 이번엔 이미 존재하는 key에 대해 값을 덮어쓰기 하지 않습니다.
-  _.defaults = function (obj) {
+  _.defaults = function (obj, ...rest) {
     
+
   };
 
   // 최대 한번만 호출할 수 있는 함수를 리턴합니다. 이후의 호출은 이전에 한번 리턴된 값만을 리턴해야 합니다.

@@ -25,6 +25,7 @@ function removeFromFrontOfNew(arr) {
   If the given array contains no strings, it should return an empty string.
 
   위 조건에서 다른 조건은 만족시키되 가장 긴 문자를 리턴하십시오.
+  ex: let arr = [3, "word", 5, "up", 3, 1] -> return "word"
 */
 function findLongestWordAmongMixedElements(arr) {
   
@@ -104,9 +105,10 @@ function sumDigits(num) {
 
 
 /** 
- * # modulo
+ * # modulo - recursion
  * 
- * 기존의 문제와 동일합니다. Recursion으로 푸시면 조금 더 간단하게 풀이 하실 수 있습니다.
+ * 기존의 문제와 동일합니다. Recursion으로 풀어보세요.
+ * 각 스펙의 조건을 확인하시면 쉽게 해결하실 수 있습니다.
  * 
  * Write a function called "modulo".
  * Given 2 numbers, "modulo" returns the remainder after dividing num1 by num2.
