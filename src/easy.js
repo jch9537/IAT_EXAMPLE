@@ -8,20 +8,20 @@
  * 단, 원본 배열을 변경해서는 안 됩니다.
 */
 function removeFromFrontOfNew(arr) { 
-  return arr.slice(1);
+
 }
 
 /** 
  * 
  * # findLongestWordAmongMixedElements
  * 
- * 아래는 기존의 배열에서 가장 짧은 문자를 리턴하는 설명입니다.
- * Write a function called "findShortestWordAmongMixedElements".
- * Given an array, "findShortestWordAmongMixedElements" returns the shortest string within the given array.
+ * 아래는 기존의 배열에서 가장 짧은 문자를 리턴하는 설명입니다.\
+ * Write a function called "findShortestWordAmongMixedElements".\
+ * Given an array, "findShortestWordAmongMixedElements" returns the shortest string within the given array.\
  * Notes:
-  If there are ties, it should return the first element to appear in the given array.
-  Expect the given array to have values other than strings.
-  If the given array is empty, it should return an empty string.
+  If there are ties, it should return the first element to appear in the given array.\
+  Expect the given array to have values other than strings.\
+  If the given array is empty, it should return an empty string.\
   If the given array contains no strings, it should return an empty string.
 
   위 조건에서 다른 조건은 만족시키되 가장 긴 문자를 리턴하십시오.
