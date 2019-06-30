@@ -8,7 +8,7 @@
  * 단, 원본 배열을 변경해서는 안 됩니다.
 */
 function removeFromFrontOfNew(arr) { 
-  
+  return arr.slice(1);
 }
 
 /** 
